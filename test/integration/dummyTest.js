@@ -1,7 +1,7 @@
 'use strict';
 /* jshint expr:true */
 /* global before, after, afterEach, beforeEach, describe, it */
-GLOBAL.config = require('../../../../config/index.js');
+GLOBAL.config = require('../../config/index.js');
 var client = require('restify').createJsonClient({
   url: config.server.base_url + ':' + config.server.port,
   version: '*'
@@ -40,6 +40,6 @@ describe('Dummy Service Test', function() {
 
   it('It should have an Awesome message', function(){
     expect(content.message).to.exist;
-    expect(content.message).to.be.equal('Availability Micro Service is running. Awesome!!');
+    expect(content.message).to.be.equal(config.server.name + ' is running. Awesome!!');
   });
 });
