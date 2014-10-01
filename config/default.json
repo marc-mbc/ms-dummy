@@ -1,11 +1,8 @@
 {
   "server": {
     "name": "Dummy Micro Service",
+    "base_url": "http://ms-dummy.budgetplaces.com",
     "port": 3000
-  },
-  "api": {
-    "base": "http://ms.budgetplaces.com",
-    "port": "80"
   },
   "backend": {
     "base": "http://backend2.budgetplaces.com"

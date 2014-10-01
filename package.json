@@ -13,9 +13,12 @@
     "config": "0.4.x"
   },
   "devDependencies": {
-    "lib-profiler": "git+ssh://git@git:lib-profiler#v1.0.1"
+    "lib-profiler": "git+ssh://git@git:lib-profiler#v1.0.1",
+    "mocha": "1.21.x",
+    "chai": "1.9.x"
   },
   "scripts": {
+  	"test": "make test_jenkins",
     "start": "sudo /etc/init.d/ms-dummy start",
     "stop": "sudo /etc/init.d/ms-dummy stop"
   }
