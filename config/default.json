@@ -1,0 +1,40 @@
+{
+  "server": {
+    "name": "Dummy Micro Service",
+    "port": 3000
+  },
+  "api": {
+    "base": "http://ms.budgetplaces.com",
+    "port": "80"
+  },
+  "backend": {
+    "base": "http://backend2.budgetplaces.com"
+  },
+  "web": {
+    "base": "http://www.budgetplaces.com"
+  },
+  "log": {
+    "path": {
+      "warn": "/log/api-errors.log"
+    },
+    "log_src": false
+  },
+  "profiling": {
+    "profile": false,
+    "details": false,
+    "webkit": false,
+    "memwatch": false
+  },
+  "cluster": {
+    "activated": true,
+    "num_workers": 4
+  },
+  "throttle": {
+    "activated": false,
+    "burst": 20,
+    "rate": 2,
+    "ip": false,
+    "username": true,
+    "xff": false
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "web": {
+    "base": "http://dev.budgetplaces.com"
+  },
+  "log": {
+    "log_src": true
+  },
+  "cluster": {
+    "activated": false,
+    "num_workers": 1
+  },
+  "profiling": {
+    "profile": true,
+    "details": false,
+    "webkit": false,
+    "memwatch": true
+  }
+}

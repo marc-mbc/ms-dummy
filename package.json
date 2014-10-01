@@ -1,0 +1,22 @@
+{
+  "name": "ms-dummy",
+  "description": "Dummy Micro Service which for testing",
+  "author": "Marc Blando",
+  "email": "marc.blando@engrande.com",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "lib-cluster":                      "git+ssh://git@84.22.169.91:lib-cluster#v1.0.0",
+    "lib-log":                          "git+ssh://git@84.22.169.91:lib-log#v1.0.4",
+    "lib-restify-handlers":             "git+ssh://git@84.22.169.91:lib-restify-handlers#v1.0.3",
+    "restify":                          "2.8.x",
+    "config":                           "0.4.x"
+  },
+  "devDependencies": {
+    "lib-profiler":                     "git+ssh://git@84.22.169.91:lib-profiler#v1.0.0"
+  },
+  "scripts": {
+    "start": "sudo /etc/init.d/ms-dummy start",
+    "stop": "sudo /etc/init.d/ms-dummy stop"
+  }
+}
