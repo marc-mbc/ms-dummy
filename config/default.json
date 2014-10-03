@@ -11,8 +11,10 @@
     "base": "http://www.budgetplaces.com"
   },
   "log": {
-    "path": {
-      "warn": "/log/api-errors.log"
+    "base": "/var/log/node/ms-dummy"
+    "levels": {
+      "warn": "errors.log",
+      "debug": "ms-dummy.log",
     },
     "log_src": false
   },
