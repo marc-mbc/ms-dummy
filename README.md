@@ -3,4 +3,4 @@
 
 <p>Install dependences for this service: npm install</p>
 <p>Start/Stop/Restart this service: npm start/stop/restart</p>
-<p>Read the logs for this service: tail -f ms-dummy.log | ./node_modules/lib-log/node_modules/bunyan/bin/bunyan </p>
+<p>Read the logs for this service: tail -f /var/log/node/ms-dummy/ms-dummy.log | ./node_modules/lib-log/node_modules/bunyan/bin/bunyan </p>
