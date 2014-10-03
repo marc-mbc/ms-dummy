@@ -3,7 +3,7 @@
   "description": "Dummy Micro Service which for testing",
   "author": "Marc Blando",
   "email": "marc.blando@engrande.com",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "private": true,
   "dependencies": {
     "lib-cluster": "git+ssh://git@git:lib-cluster#v1.0.1",
