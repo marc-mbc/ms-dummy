@@ -11,7 +11,7 @@
     "base": "http://www.budgetplaces.com"
   },
   "log": {
-    "base": "/var/log/node/ms-dummy"
+    "base": "/var/log/node/ms-dummy",
     "levels": {
       "warn": "errors.log",
       "debug": "ms-dummy.log",
