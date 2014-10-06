@@ -1,0 +1,6 @@
+{
+	"cluster": {
+	    "activated": true,
+	    "num_workers": 2
+	}
+}
