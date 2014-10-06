@@ -5,6 +5,7 @@
   "email": "marc.blando@engrande.com",
   "version": "1.0.8",
   "private": true,
+  "main": ".app/api",
   "dependencies": {
     "lib-cluster": "git+ssh://git@git:lib-cluster#v1.0.1",
     "lib-log": "git+ssh://git@git:lib-log#v1.0.7",
