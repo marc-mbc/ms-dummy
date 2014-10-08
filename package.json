@@ -9,7 +9,7 @@
   "dependencies": {
     "lib-cluster": "git+ssh://git@git:lib-cluster#v1.1.0",
     "lib-log": "git+ssh://git@git:lib-log#v1.0.7",
-    "lib-restify-handlers": "git+ssh://git@git:lib-restify-handlers#v1.1.0",
+    "lib-restify-handlers": "git+ssh://git@git:lib-restify-handlers#v1.2.0",
     "restify": "2.8.x",
     "config": "0.4.x"
   },

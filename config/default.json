@@ -12,6 +12,7 @@
   },
   "log": {
     "base": "/var/log/node/ms-dummy/",
+  	"access_log": true,
     "levels": {
       "warn": "errors.log",
       "debug": "ms-dummy.log"
