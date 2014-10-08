@@ -15,7 +15,12 @@ module.exports = {
       log: log
     });
 
-    handlers.init(api, worker, config, log);
+    // ms config for handlers
+    var ms = {
+      worker: worker
+    };
+
+    handlers.init(api, ms, config, log);
 
     router.initialize(api);
 
