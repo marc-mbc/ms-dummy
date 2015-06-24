@@ -1,14 +1,14 @@
 {
   "server": {
     "name": "Dummy Micro Service",
-    "base_url": "http://ms-dummy.budgetplaces.com",
+    "base_url": "http://ms-dummy.mbc.com",
     "port": 3000
   },
   "backend": {
-    "base": "http://backend2.budgetplaces.com"
+    "base": "http://backend.mbc.com"
   },
   "web": {
-    "base": "http://www.budgetplaces.com"
+    "base": "http://www.mbc.com"
   },
   "log": {
     "base": "/var/log/node/ms-dummy/",

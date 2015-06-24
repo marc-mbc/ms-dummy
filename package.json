@@ -2,19 +2,19 @@
   "name": "ms-dummy",
   "description": "Dummy Micro Service which for testing",
   "author": "Marc Blando",
-  "email": "marc.blando@engrande.com",
+  "email": "marc.mbc@gmail.com",
   "version": "1.0.11",
   "private": true,
   "main": ".app/api",
   "dependencies": {
-    "lib-cluster": "git+ssh://git@git:lib-cluster#v1.1.0",
-    "lib-log": "git+ssh://git@git:lib-log#v1.0.8",
-    "lib-restify-handlers": "git+ssh://git@git:lib-restify-handlers#v1.2.1",
+    "lib-cluster": "git+https://github.com/marc-mbc/lib-cluster.git#v1.1.1",
+    "lib-log": "git+https://github.com/marc-mbc/lib-log.git#v1.0.9",
+    "lib-restify-handlers": "git+https://github.com/marc-mbc/lib-restify-handlers.git#v1.2.2",
     "restify": "2.8.x",
     "config": "0.4.x"
   },
   "devDependencies": {
-    "lib-profiler": "git+ssh://git@git:lib-profiler#v1.0.1",
+    "lib-profiler": "git+https://github.com/marc-mbc/lib-profiler.git#v1.0.2",
     "mocha": "1.21.x",
     "chai": "1.9.x"
   },

@@ -1,4 +1,5 @@
 *.pid
 node_modules/
 config/runtime.json
+.idea/*
 test-reports.xml

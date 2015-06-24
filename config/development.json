@@ -1,6 +1,6 @@
 {
   "web": {
-    "base": "http://dev.budgetplaces.com"
+    "base": "http://dev.mbc.com"
   },
   "log": {
     "log_src": true
