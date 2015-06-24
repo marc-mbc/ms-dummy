@@ -3,7 +3,7 @@
   "description": "Dummy Micro Service which for testing",
   "author": "Marc Blando",
   "email": "marc.mbc@gmail.com",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "private": true,
   "main": ".app/api",
   "dependencies": {
